@@ -51,3 +51,15 @@ Para otimizar o consumo energético do nó sensor e garantir a confiabilidade do
   "confianca": 0.845,
   "status": "alertando"
 }
+
+---
+
+## 📥 Como Rodar o Projeto (Firmware)
+
+Para compilar o código do ESP32 (`firmware.ino`), você precisa importar o modelo de Inteligência Artificial que está compactado na pasta deste repositório.
+
+1. Baixe o arquivo `.zip` da IA que está localizado na pasta `/libs` deste projeto.
+2. Abra a **Arduino IDE**.
+3. No menu superior, vá em: **Esboço** -> **Incluir Biblioteca** -> **Adicionar Biblioteca .ZIP...** (Sketch -> Include Library -> Add .ZIP Library).
+4. Selecione o arquivo `.zip` que você baixou.
+5. Pronto! Agora o seu ambiente possui a biblioteca `<Caipora_2.3_inferencing.h>` instalada e pronta para compilar o código para o ESP32.
