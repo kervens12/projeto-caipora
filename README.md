@@ -1,7 +1,7 @@
 # projeto-caipora
-Nó sensor inteligente baseado em ESP32 e TinyML (Edge AI) para a detecção acústica em tempo real de motosserras e alertas de desmatamento ilegal.
+Nó sensor inteligente baseado em ESP32 e TinyML (Edge AI) para a detecção acústica em tempo real de motosserras gerando alertas alertas de desmatamento ilegal.
 
-# 🌲 Projeto Caipora 5.0 — Monitoramento Acústico Florestal com TinyML
+# 🌲 Caipora — Monitoramento Acústico Florestal com TinyML
 
 O **Caipora** é um nó sensor inteligente de monitoramento ambiental desenvolvido para detectar ameaças de desmatamento ilegal em tempo real. Utilizando **Inteligência Artificial na borda (TinyML)**, o dispositivo processa áudio localmente e identifica assinaturas acústicas de motosserras sem depender de conexão com a nuvem ou internet.
 
