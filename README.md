@@ -24,15 +24,15 @@ O **Caipora** é um nó sensor inteligente de monitoramento ambiental desenvolvi
 ## 📊 Inteligência Artificial (MFE + CNN)
 O modelo foi treinado utilizando a plataforma **Edge Impulse**, convertendo o áudio bruto em espectrogramas através de **Mel-Frequency Energy (MFE)** e processando-o por uma Rede Neural Convolucional (CNN).
 
-* **Acurácia Global:** 95.7%
-* **Sensibilidade da Classe "Motosserra":** 94.1%
-* **Estabilidade da Classe "Ambiente":** 97.1% (Garantia contra disparos falsos)
-* **F1-Score:** 0.96
+* **Acurácia Global (Accuracy):** 95.7%
+* **Precisão da Classe Motosserra (Precision):** 94.1%
+* **Estabilidade da Classe Ambiente:** 97.1%
 
-### Parâmetros do Impulso:
-* **Tamanho da Janela:** 1.000 ms
-* **Aumento da Janela (Passo):** 400 ms (*Data Augmentation*)
-* **Frequência de Amostragem:** ~16.000 Hz (15997 Hz real)
+### 📈 Desempenho e Métricas do Modelo:
+
+| Matriz de Confusão | Gráfico de Precisão / Performance |
+| :---: | :---: |
+| ![Matriz de Confusão](img/matriz_confusao.jpeg) | ![Gráfico de Precisão](img/grafico_precisao.jpeg) |
 
 ---
 
