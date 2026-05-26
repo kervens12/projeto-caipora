@@ -51,7 +51,7 @@ Para otimizar o consumo energético do nó sensor e garantir a confiabilidade do
   "confianca": 0.845,
   "status": "alertando"
 }
-
+```
 ---
 
 ## 📥 Como Rodar o Projeto (Firmware)
